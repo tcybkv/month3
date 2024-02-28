@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Initial D</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/core.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="inner_header">
+                    <a href="index.html">
+                        <img src="images/icon_initial-d.png" alt="Initial D" class="logotype">
+                    </a>
+                    <ul class="menu">
+                        <li class="menu_link">
+                            <a href="pages/home_works.html">Home Works</a>
+                        </li>
+                        <li class="menu_link">
+                            <a href="pages/lessons.html">Lessons</a>
+                        </li>
+                        <li class="menu_link">
+                            <a href="pages/monster.html">Game</a>
+                        </li>
+                        <li class="menu_link">
+                            <a href="pages/characters.html">Characters</a>
+                        </li>
+                    </ul>
+                    <button class="btn" id="btn-get">Contact</button>
+                </div>
+            </div>
+        </div>
+        <div class="main_block">
+            <video autoplay muted loop class="my_video">
+                <source src="video/main_video.mp4" type="video/mp4">
+            </video>
+            <div class="container">
+                <div class="inner_main">
+                    <h1>Japanese street racing <strong id="js-color">Initial D</strong></h1>
+                    <div class="colors-buttons">
+                        <button class="btn btn-color"></button>
+                        <button class="btn btn-color"></button>
+                        <button class="btn btn-color"></button>
+                        <button class="btn btn-color"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider_block">
+            <div class="container">
+                <div class="inner_slider">
+                    <h2>Cars</h2>
+                    <div class="slider">
+                        <button class="btn-slide" id="prev"><</button>
+                        <div class="slide active_slide">
+                            <div class="slide_card">
+                                <h3>Akina</h3>
+                                <div class="slider_card_items">
+                                    <p>Mountain Akina</p>
+                                    <img src="" alt="Akina">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide_card">
+                                <h3>recursion</h3>
+                                <p>Простыми словами, рекурсия - это, когда функция делает повторяющиеся вызовы самой себя для решения задачи, пока не достигнет определенного условия выхода из рекурсии.</p>
+                                <a href="https://learn.javascript.ru/recursion" target="_blank">узнать подробнее</a>
+                            </div>
+                        </div>
+                        <button class="btn-slide" id="next">></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block_video">
+            <div class="container">
+                <h3>season 2 mf ghost trailer</h3>
+                <div class="inner_block_video">
+                    <iframe width="430" height="240" src="https://www.youtube.com/embed/vP-kwGYGzK8?si=A66ab3cEoaoYjm3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer__items">
+                    <div class="footer__about__me">
+                        <a href="#" class="footer__icon">
+                            <img src="images/icon_footer.png" alt="Initial D" class="footer__icon"/>
+                        </a>
+                        <p class="footer__me__text">Made by Toychubekov Bakdoolot</p>
+                        <div class="footer__socialmedia">
+                            <a href="https://www.instagram.com/tcybkvv/" target="_blank">
+                                <img src="images/icon-footer-instagram.svg" alt="Instagram" />
+                            </a>
+                            <a href="https://t.me/tcybkv" target="_blank">
+                                <img src="images/icon-footer-telegram.png" alt="Telegram" />
+                            </a>
+                        </div>
+                        <p class="footer__me__copyright">Copyright © 2024 Initial D.</p>
+                    </div>
+                    <div class="footer__about">
+                        <div class="footer__about__item">
+                            <span class="footer__about__title">Pages</span>
+                            <ul>
+                                <li>
+                                    <a href="">Home</a>
+                                </li>
+                                <li>
+                                    <a href="pages/home_works.html">Home works</a>
+                                </li>
+                                <li>
+                                    <a href="pages/characters.html">Characters</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__about__item">
+                            <span class="footer__about__title">Pages</span>
+                            <ul>
+                                <li>
+                                    <a href="pages/monster.html">Game</a>
+                                </li>
+                                <li>
+                                    <a href="pages/lessons.html">Lessons</a>
+                                </li>
+                                <li>
+                                    <a href="https://jut.su/initial-d/" target="_blank">Watch</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div class="modal_close">&times;</div>
+                    <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input
+                        required
+                        placeholder="Ваше имя"
+                        name="name"
+                        type="text"
+                        class="modal_input"
+                    >
+                    <input
+                        required
+                        placeholder="Ваш номер телефона"
+                        name="phone"
+                        type="text"
+                        class="modal_input"
+                    >
+                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+<script src="js/modal.js"></script>
+</html>

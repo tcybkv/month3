@@ -1,0 +1,42 @@
+[
+  {
+    "character_photo": "https://media.tenor.com/rt1Nr6kjzAsAAAAM/initial-d-takumi.gif",
+    "name": "Takumi Fujiwara",
+    "age": 18
+  },
+  {
+    "character_photo": "https://media.tenor.com/LZiTIKd5MQMAAAAM/initial-d-%E9%A0%AD%E6%96%87%E5%AD%97d.gif",
+    "name": "Bunta Fujiwara",
+    "age": 43
+  },
+  {
+    "character_photo": "https://media1.tenor.com/m/fidU4a8SbYAAAAAd/itsuki-itsuki-takeuchi.gif",
+    "name": "Itsuki Takeuchi",
+    "age": 18
+  },
+  {
+    "character_photo": "https://media.tenor.com/Ai-ZUS_sUmYAAAAM/mako-mako-sato.gif",
+    "name": "Mako Sato",
+    "age": 20
+  },
+  {
+    "character_photo": "https://media.tenor.com/Cr0_AEoDSMkAAAAM/keisuke-takahashi-keisuke.gif",
+    "name": "Keisuke Takahashi",
+    "age": 21
+  },
+  {
+    "character_photo": "https://media.tenor.com/mVhyHRGxHGAAAAAM/ryosuke-takahashi-coffee.gif",
+    "name": "Ryosuke Takahashi",
+    "age": 23
+  },
+  {
+    "character_photo": "https://media.tenor.com/MK0fm3pKp4sAAAAM/koichiro-iketani-iketani.gif",
+    "name": "Koichiro Iketani",
+    "age": 21
+  },
+  {
+    "character_photo": "https://media.tenor.com/A8tMap6ig_kAAAAM/initial-d-loneley-driver.gif",
+    "name": "Kenji",
+    "age": 21
+  }
+]

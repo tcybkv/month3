@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.track {
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    background: linear-gradient(to bottom, #333 0%, #666 100%);
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.car {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.finish-line {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    top: 20%;
+}
+
+.score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 20px;
+}
